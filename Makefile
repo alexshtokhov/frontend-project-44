@@ -5,4 +5,7 @@ brain-games:
 publish:
 	npm publish --dry-run
 
-.PHONY: test
+.PHONY: 
+	test
+make lint:
+	npx eslint .
